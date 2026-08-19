@@ -1,5 +1,3 @@
-const ROOT = "./musictheoryflashcards";
-
 import { DATA } from "./musictheoryflashcards/services/data.js";
 import { UTILS } from "./musictheoryflashcards/services/utils.js";
 import { RENDER } from "./musictheoryflashcards/components/render.js";
