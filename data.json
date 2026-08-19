@@ -1,0 +1,697 @@
+{
+	"grade 1": {
+		"dynamics": [
+			{
+				"name": "Fortissimo",
+				"meaning": "Very loud",
+				"description": "Play with very strong volume while maintaining a beautiful tone.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/fortissimo.mp3",
+				"symbol": "𝆑𝆑"
+			},
+			{
+				"name": "Forte",
+				"meaning": "Loud",
+				"description": "Play loudly without forcing the sound.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/forte.mp3",
+				"symbol": "𝆑"
+			},
+			{
+				"name": "Mezzo forte",
+				"meaning": "Moderately loud",
+				"description": "Play with a comfortably strong, balanced sound.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/mezzoforte.mp3",
+				"symbol": "𝆐𝆑"
+			},
+			{
+				"name": "crescendo",
+				"meaning": "Gradually getting louder",
+				"description": "Increase the volume gradually over the marked passage.",
+				"hasSymbol": "true",
+				"hasShortName": "true",
+				"hasSound": "true",
+				"sound": "./audio/crescendo.mp3",
+				"shortName": "cresc.",
+				"symbol": "𝆒"
+			},
+			{
+				"name": "Pianissimo",
+				"meaning": "Very quiet",
+				"description": "Play very softly with careful control.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/pianissimo.mp3",
+				"symbol": "𝆏𝆏"
+			},
+			{
+				"name": "Piano",
+				"meaning": "Quiet",
+				"description": "Play quietly while keeping the notes clear.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/piano.mp3",
+				"symbol": "𝆏"
+			},
+			{
+				"name": "Mezzo piano",
+				"meaning": "Moderately quiet",
+				"description": "Play slightly quieter than normal but not very soft.",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "true",
+				"sound": "./audio/mezzopiano.mp3",
+				"symbol": "𝆐𝆏"
+			},
+			{
+				"name": "decrescendo",
+				"meaning": "Gradually getting quieter",
+				"description": "Gradually reduce the volume over the marked passage.",
+				"hasSymbol": "true",
+				"hasShortName": "true",
+				"hasSound": "true",
+				"sound": "./audio/decrescendo.mp3",
+				"shortName": "decresc.",
+				"symbol": "𝆓"
+			},
+			{
+				"name": "diminuendo",
+				"meaning": "Gradually getting quieter",
+				"description": "Gradually reduce the volume until the new dynamic is reached.",
+				"hasSymbol": "true",
+				"hasShortName": "true",
+				"hasSound": "true",
+				"sound": "./audio/diminuendo.mp3",
+				"shortName": "dim.",
+				"symbol": "𝆓"
+			}
+		],
+		"tempo": [
+			{
+				"name": "Allegro",
+				"meaning": "Quick",
+				"description": "A brisk, energetic speed.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Allegretto",
+				"meaning": "Fairly quick",
+				"description": "Slightly slower than Allegro, with a light character.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Accelerando",
+				"meaning": "Gradually getting quicker",
+				"description": "Gradually increase the speed.",
+				"hasSymbol": "false",
+				"hasShortName": "accel.",
+				"hasSound": "false"
+			},
+			{
+				"name": "Moderato",
+				"meaning": "At a moderate speed",
+				"description": "Maintain a comfortable, moderate pace.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Andante",
+				"meaning": "At a medium speed",
+				"description": "Walk at a steady, natural pace.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Adagio",
+				"meaning": "Slow",
+				"description": "Play slowly with calm, sustained movement.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false",
+				"sound": "./audio/adagio.mp3"
+			},
+			{
+				"name": "rallentando",
+				"meaning": "Gradually getting slower",
+				"description": "Gradually slow down, often becoming broader.",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "rall."
+			},
+			{
+				"name": "ritardando",
+				"meaning": "Gradually getting slower",
+				"description": "Gradually slow the tempo before continuing or ending.",
+				"hasSymbol": "false",
+				"hasShortName": "ritard."
+			},
+			{
+				"name": "a tempo",
+				"meaning": "In time",
+				"description": "Return to the original tempo after a change.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		],
+		"style": [
+			{
+				"name": "cantabile",
+				"meaning": "In a singing style",
+				"description": "Play as though singing a melody.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "dolce",
+				"meaning": "Sweet",
+				"description": "Play gently and sweetly with a warm tone.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "legato",
+				"meaning": "Smoothly",
+				"description": "Connect each note smoothly without gaps.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "staccato",
+				"meaning": "Detached",
+				"description": "Play each note short and separated.",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "stacc."
+			}
+		],
+		"repetition": [
+			{
+				"name": "Da Capo",
+				"meaning": "Repeat from the beginning",
+				"description": "Return to the beginning and continue as directed.",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "D.C."
+			}
+		],
+		"finish": [
+			{
+				"name": "fine",
+				"meaning": "The end",
+				"description": "This marks the end of the piece or section.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "al fine",
+				"meaning": "Up to the end",
+				"description": "Continue playing until you reach 'Fine.'",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		],
+		"general": []
+	},
+	"grade 2": {
+		"dynamics": [
+			{
+				"name": "Fortepiano",
+				"meaning": "Loud, then immediately quiet",
+				"description": "",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "false",
+				"symbol": "𝆑𝆏"
+			}
+		],
+		"tempo": [
+			{
+				"name": "Presto",
+				"meaning": "Fast, quicker than allegro",
+				"description": "A very fast tempo with clear control.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Vivace",
+				"meaning": "Lively, quick",
+				"description": "Play quickly with a lively, spirited feel.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Vivo",
+				"meaning": "Lively, quick",
+				"description": "Play with energy and life.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Più mosso",
+				"meaning": "More movement, quicker",
+				"description": "Increase the speed from the current tempo.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Con moto",
+				"meaning": "With movement",
+				"description": "Keep the music moving with a sense of forward motion.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Lento",
+				"meaning": "Slow, slower than adagio",
+				"description": "Play very slowly and steadily.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Largo",
+				"meaning": "Slow, stately. The same as, or slower than lento",
+				"description": "Play broadly, slowly, and with dignity.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Grave",
+				"meaning": "very slow, solemn",
+				"description": "Play very slowly with a solemn, weighty character.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Meno mosso",
+				"meaning": "Less movement, slower",
+				"description": "Reduce the speed from the current tempo.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Ritenuto",
+				"meaning": "Getting slower, held back",
+				"description": "Slow down immediately, as if holding back the tempo.",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "riten."
+			},
+			{
+				"name": "Allargando",
+				"meaning": "Broadening",
+				"description": "Gradually become broader, slower, and often louder.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		],
+		"style": [
+			{
+				"name": "espressivo",
+				"meaning": "Expressive",
+				"description": "Play with emotion and expressive phrasing.",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "espress."
+			},
+			{
+				"name": "grazioso",
+				"meaning": "Graceful",
+				"description": "Play gracefully with elegance and lightness.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "alla marcia",
+				"meaning": "In the style of a march",
+				"description": "Play in the style and rhythm of a march.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		],
+		"repetition": [
+			{
+				"name": "Dal Segno",
+				"meaning": "Repeat from the sign",
+				"description": "Return to the sign and continue as directed.",
+				"hasSymbol": "true",
+				"hasShortName": "true",
+				"hasSound": "false",
+				"shortName": "D.S.",
+				"symbol": "𝄋"
+			}
+		],
+		"finish": [],
+		"general": [
+			{
+				"name": "molto",
+				"meaning": "Very, much",
+				"description": "Intensifies another instruction, such as molto allegro or molto forte.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "non troppo",
+				"meaning": "Not too much",
+				"description": "Limits another instruction so it is not excessive.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "poco",
+				"meaning": "A little",
+				"description": "Indicates a small amount or slight change.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "poco a poco",
+				"meaning": "Little by little",
+				"description": "Make the change gradually, little by little.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "col",
+				"meaning": "with",
+				"description": "Used before another word to mean 'with,' e.g. col pedale.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "con",
+				"meaning": "with",
+				"description": "Used before another word to mean 'with,' e.g. con brio.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "e",
+				"meaning": "and",
+				"description": "Connects two musical instructions meaning 'and.'",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "ed",
+				"meaning": "and",
+				"description": "Means 'and'; used before words beginning with a vowel.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "ma",
+				"meaning": "But",
+				"description": "Connects contrasting instructions, meaning 'but.'",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "meno",
+				"meaning": "Less",
+				"description": "Indicates less of something, such as slower or quieter.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "più",
+				"meaning": "More",
+				"description": "Indicates more of something, such as faster or louder.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "senza",
+				"meaning": "Without",
+				"description": "Indicates something should be omitted, e.g. senza pedale.",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		]
+	},
+	"grade 3": {
+		"dynamics": [
+			{
+				"name": "Szforzando",
+				"meaning": "Forced, accented",
+				"description": "",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "false",
+				"symbol": "𝆍𝆑𝆎"
+			},
+			{
+				"name": "Szforzato",
+				"meaning": "Forced, accented",
+				"description": "",
+				"hasSymbol": "true",
+				"hasShortName": "false",
+				"hasSound": "false",
+				"symbol": "𝆍𝆑𝆎"
+			}
+		],
+		"tempo": [
+			{
+				"name": "Andantino",
+				"meaning": "Slightly faster than andante. But, may also mean slighly slower.",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Prestissimo",
+				"meaning": "Very fast",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			}
+		],
+		"style": [
+			{
+				"name": "Agitato",
+				"meaning": "Agitated",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Animato",
+				"meaning": "Animated",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Con forza",
+				"meaning": "With force",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Energico",
+				"meaning": "Energised",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Leggiero",
+				"meaning": "Light",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Giocoso",
+				"meaning": "Playful, merry",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Maestoso",
+				"meaning": "Majestic",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Marcato",
+				"meaning": "Emphatic, accented",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"shortName": "marc.",
+				"hasSound": "false"
+			},
+			{
+				"name": "Pesante",
+				"meaning": "Heavy",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Risoluto",
+				"meaning": "Strong, bold",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Scherzando",
+				"meaning": "Playful, joking",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Semplice",
+				"meaning": "Simple, plain",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Sostenuto",
+				"meaning": "Sustained",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"shortName": "sost.",
+				"hasSound": "false"
+			},
+			{
+				"name": "Tranquillo",
+				"meaning": "Calm",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Tristemente",
+				"meaning": "Calm",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"shortName": "Triste",
+				"hasSound": "false"
+			}
+		],
+		"general": [
+			{
+				"name": "Ben",
+				"meaning": "Well",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Prima",
+				"meaning": "First",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Primo",
+				"meaning": "First",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Sempre",
+				"meaning": "Always",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Simile",
+				"meaning": "In the same way",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "false",
+				"hasSound": "false"
+			},
+			{
+				"name": "Subito",
+				"meaning": "Calm",
+				"description": "",
+				"hasSymbol": "false",
+				"hasShortName": "true",
+				"shortName": "sub.",
+				"hasSound": "false"
+			}
+		]
+	}
+}

@@ -1,0 +1,130 @@
+:root {
+	--bg: #333;
+	--text: #eee;
+	--text-muted: #aaa;
+	--card-button-color: #555;
+	--card-button-border-color: #606060;
+	--card-button-color-hover: #595959;
+	--card-button-color-active: #535353;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	font-family:
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		"Open Sans",
+		"Helvetica Neue",
+		sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	padding: 1rem;
+	background-color: var(--bg);
+	color: var(--text);
+	display: grid;
+	place-items: center;
+	position: relative;
+}
+
+.card {
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+}
+
+.answer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: grid;
+	place-items: center;
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+	background-color: inherit;
+	color: inherit;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.answer div > h5 {
+	margin-bottom: 1rem;
+}
+
+.description-box {
+	font-size: 1.2rem;
+	color: var(--text-muted);
+}
+
+.description-box + .card-button {
+	margin-top: 3rem;
+}
+
+.card-header {
+	font-size: 2rem;
+	padding-top: 1rem;
+}
+
+.symbol {
+	font-family: "Noto Music", serif;
+	font-size: 3.5rem;
+	font-weight: 500;
+}
+
+.card-button,
+.play-button {
+	border: unset;
+	outline: unset;
+	cursor: pointer;
+	border-radius: 0.5rem;
+	background-color: var(--card-button-color);
+	border: 1px solid var(--card-button-border-color);
+	color: inherit;
+}
+
+.card-button {
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.25rem;
+	margin: 3rem 0 0.5rem;
+}
+
+.card-button:hover,
+.play-button:hover {
+	background-color: var(--card-button-color-hover);
+}
+
+.play-button {
+	padding: 0.1007rem 0.2014rem;
+	font-size: 1.5rem;
+}
+
+.card-button:active,
+.play-button:active {
+	background-color: var(--card-button-color-active);
+}
+
+.font {
+	font-family: "Libre Baskerville", serif;
+}
