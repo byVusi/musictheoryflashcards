@@ -1,6 +1,8 @@
-import { DATA } from "./services/data.js";
-import { UTILS } from "./services/utils.js";
-import { RENDER } from "./components/render.js";
+const ROOT = "./musictheoryflashcards";
+
+import { DATA } from `${ROOT}/services/data.js`;
+import { UTILS } from `${ROOT}/services/utils.js`;
+import { RENDER } from `${ROOT}/components/render.js`;
 
 const data = await DATA.fetch();
 const grades = Object.keys(data);
