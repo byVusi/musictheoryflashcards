@@ -1,8 +1,8 @@
 const ROOT = "./musictheoryflashcards";
 
-import { DATA } from `${ROOT}/services/data.js`;
-import { UTILS } from `${ROOT}/services/utils.js`;
-import { RENDER } from `${ROOT}/components/render.js`;
+import { DATA } from "./musictheoryflashcards/services/data.js";
+import { UTILS } from "./musictheoryflashcards/services/utils.js";
+import { RENDER } from "./musictheoryflashcards/components/render.js";
 
 const data = await DATA.fetch();
 const grades = Object.keys(data);
