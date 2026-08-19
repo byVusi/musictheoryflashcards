@@ -1,4 +1,4 @@
-const JSON_URL = "./data.json";
+const JSON_URL = "/data.json";
 
 async function fetchData() {
 	try {
