@@ -1,6 +1,6 @@
-import { DATA } from "./services/data.js";
-import { UTILS } from "./services/utils.js";
-import { RENDER } from "./components/render.js";
+import { DATA } from "services/data.js";
+import { UTILS } from "services/utils.js";
+import { RENDER } from "components/render.js";
 
 const data = await DATA.fetch();
 const grades = Object.keys(data);
